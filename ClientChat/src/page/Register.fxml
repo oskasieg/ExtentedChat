@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Ellipse?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="313.0" prefWidth="317.0" xmlns="http://javafx.com/javafx/8.0.999-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ControllerRegister">
+   <children>
+      <VBox layoutX="50.0" layoutY="14.0" prefHeight="245.0" prefWidth="197.0">
+         <children>
+            <Label prefHeight="35.0" prefWidth="53.0" text="Login:" />
+            <TextField fx:id="login" />
+            <Label prefHeight="35.0" prefWidth="53.0" text="Hasło:" />
+            <PasswordField fx:id="password" />
+            <Label prefHeight="35.0" prefWidth="109.0" text="Powtórz hasło:" />
+            <PasswordField fx:id="password2" />
+            <Label prefHeight="35.0" prefWidth="207.0" text="Nazwisko panieńskie matki: " />
+            <TextField fx:id="query" />
+         </children>
+      </VBox>
+      <Button fx:id="confirmButton" layoutX="117.0" layoutY="273.0" mnemonicParsing="false" onAction="#addUser" text="Zatwierdź" />
+      <Ellipse fill="DODGERBLUE" layoutX="284.0" layoutY="21.0" radiusX="27.0" radiusY="17.0" stroke="BLACK" strokeType="INSIDE" />
+      <Text fx:id="returnButton" layoutX="262.0" layoutY="25.0" onMouseClicked="#returnToMainMenu" strokeType="OUTSIDE" strokeWidth="0.0" text="Powrót" />
+   </children>
+</Pane>
