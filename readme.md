@@ -1,4 +1,4 @@
-To run this app only what you need is mysql-connector which is included to this repository.
+To run this app only what you need is mysql-connector which is included to this repository and also you need to install JavaFX scene builder.
 
 1. Add mysql-connector folder to external libraries in project structure.
 2. Run /ServerChat/src/MainServer.java. Now server is online.
